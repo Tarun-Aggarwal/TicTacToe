@@ -67,6 +67,7 @@ function showWinner(winner){
 
 function resetGame(){
     turnO = true;
+    winner = "";
     count = 0;
     for(box of boxes){
         box.disabled = false;
